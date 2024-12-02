@@ -18,6 +18,7 @@ body {
 }
 
 #navbar-logo {
+    margin-right: 150px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -83,14 +84,20 @@ img {
 }
 
 #signup-button {
+    font-size: 15px;
     color: white;
     background-color: #3882F6;
     width: 100px;
     height: 30px;
-    border: 1px solid #3882F6;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
     cursor: pointer;
 }
+
+#signup-button:hover {
+    background-color: #7babf8;
+}
+
 /* Section 1 */
 
 /* Section 2 */
@@ -209,6 +216,10 @@ h2 {
     border: 3px solid white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#signup-button-bottom:hover {
+    background-color: #7babf8;
 }
 
 /* Section 4 */
