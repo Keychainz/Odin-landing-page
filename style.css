@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 body {
@@ -105,13 +105,14 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 80px;
 }
 
 .blue-box-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 100px;
+    margin: 50px;
 }
 
 .blue-box {
@@ -124,6 +125,7 @@ h2 {
 .second-subtext {
     text-align: center;
     font-size: 18px;
+    color: gray
 }
 /* Section 2 */
 
@@ -160,10 +162,33 @@ h2 {
 
 /* Section 4 */
 
+.section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .blue-action-box {
     background-color: #3882F6;
-    border-radius: 10px;
-    margin: 50px;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-side span {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight:900;
 }
 
 /* Section 4 */
